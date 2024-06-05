@@ -1,4 +1,6 @@
 # Remix + Fleek Starter Kit
+![Fleek 2024 Rebrand Boilerplate](https://github.com/fleek-tools/remix-template/assets/74613246/4dc6bab0-fb59-4953-8803-66143dec8a1a)
+
 
 ## 🚀 Project Structure
 
@@ -63,10 +65,10 @@ After running it you will get an output like this:
 ```
  WARN! Fleek CLI is in beta, use it at your own discretion
   > Success! Deployed!
-   > Site IPFS CID: QmP1nDyoHqSrRabwUSrxRV3DJqiKH7b9t1tpLcr1NTkm1M
+  > Site IPFS CID: QmP1nDyoHqSrRabwUSrxRV3DJqiKH7b9t1tpLcr1NTkm1M
 
-    > You can visit through the gateway:
-     > https://ipfs.io/ipfs/QmP1nDyoHqSrRabwUSrxRV3DJqiKH7b9t1tpLcr1NTkm1M
+  > You can visit through the gateway:
+  > https://ipfs.io/ipfs/QmP1nDyoHqSrRabwUSrxRV3DJqiKH7b9t1tpLcr1NTkm1M
 ```
 
 ### Extra features

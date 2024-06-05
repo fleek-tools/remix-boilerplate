@@ -1,5 +1,9 @@
 import type { MetaFunction } from "@remix-run/node";
 
+export function getStaticPaths() {
+  return ["/"];
+}
+
 export const meta: MetaFunction = () => {
   return [
     { title: "New Remix App" },

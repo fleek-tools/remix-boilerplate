@@ -1,0 +1,26 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/></head><body><h1 style="font-size:24px">404<!-- --> <!-- -->Not Found</h1><script>
+        console.log(
+          "💿 Hey developer 👋. You can provide a way better UX than this when your app throws errors. Check out https://remix.run/guides/errors for more information."
+        );
+      </script><script>((STORAGE_KEY, restoreKey) => {
+    if (!window.history.state || !window.history.state.key) {
+      let key = Math.random().toString(32).slice(2);
+      window.history.replaceState({
+        key
+      }, "");
+    }
+    try {
+      let positions = JSON.parse(sessionStorage.getItem(STORAGE_KEY) || "{}");
+      let storedY = positions[restoreKey || window.history.state.key];
+      if (typeof storedY === "number") {
+        window.scrollTo(0, storedY);
+      }
+    } catch (error) {
+      console.error(error);
+      sessionStorage.removeItem(STORAGE_KEY);
+    }
+  })("positions", null)</script><link rel="modulepreload" href="/build/manifest-0856F2A8.js"/><link rel="modulepreload" href="/build/entry.client-YOSJKOFR.js"/><link rel="modulepreload" href="/build/_shared/chunk-ISQIRYM7.js"/><link rel="modulepreload" href="/build/_shared/chunk-MFPRU5OA.js"/><link rel="modulepreload" href="/build/root-CDIJ4T6V.js"/><script>window.__remixContext = {"url":"/404","future":{"v3_fetcherPersist":false,"v3_relativeSplatPath":false,"v3_throwAbortReason":false,"unstable_singleFetch":false},"state":{"loaderData":{},"actionData":null,"errors":{"root":{"status":404,"statusText":"Not Found","internal":true,"data":"Error: No route matches URL \"/404\"","error":{},"__type":"RouteErrorResponse"}}}};</script><script type="module" async="">import "/build/manifest-0856F2A8.js";
+import * as route0 from "/build/root-CDIJ4T6V.js";
+window.__remixRouteModules = {"root":route0};
+
+import("/build/entry.client-YOSJKOFR.js");</script></body></html>

@@ -1,4 +1,4 @@
-# Remix + Fleek Starter Kit
+# Remix Boilerplate
 ![Fleek 2024 Rebrand Boilerplate](https://github.com/fleek-tools/remix-template/assets/74613246/4dc6bab0-fb59-4953-8803-66143dec8a1a)
 
 
